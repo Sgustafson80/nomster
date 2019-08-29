@@ -96,3 +96,7 @@
   <%= f.input :caption %>
   <%= f.submit "Add a Photo", class: 'btn btn-primary' %>
 <% end %>
+
+<% @place.photos.each do |photo| %>
+  <%= photo.caption %>
+<% end %>
