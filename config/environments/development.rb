@@ -8,7 +8,7 @@ Rails.application.configure do
     domain: "example.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    username: ENV['GMAIL_ADDRESS'],
+    user_name: ENV['GMAIL_ADDRESS'],
     password: ENV['GMAIL_PASSWORD']
   }
   config.action_mailer.default_url_options = { host: 'localhost:3030' }
