@@ -1,24 +1,19 @@
-# README
+# Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nomster is a Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication.
 
-Things you may want to cover:
+## How to Run Nomster
 
-* Ruby version
+Run Nomster in online in your web browser at https://nomster-sarah-gustafson.herokuapp.com/
 
-* System dependencies
+## Built With
 
-* Configuration
+Nomster was built with HTML5, CSS, and Ruby version 2.5.3 on Rails version 5.2.3. Google Maps API is used for map integration. Amazon Web Services is used for handling of user uploaded images. Nomster is launched using Heroku. The Devise Gem is used for user authentication. Postgresql is used for database management
 
-* Database creation
+## Author
 
-* Database initialization
+Nomster was coded by Sarah E. Gustafson
 
-* How to run the test suite
+## Acknowledgments
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Nomster was coded under the instruction of Vanderbilt University Online Coding Bootcamp
